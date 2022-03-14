@@ -1,0 +1,28 @@
+{
+    "name": "probots",
+    "version": "1.3.0",
+    "description": "Mis ladrillos extension",
+    "dependencies": {
+        "core": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
+    },
+    "files": [
+        "README.md",
+        "probot.ts",
+        "_locales/es/probots-strings.json",
+        "mednet.ts"
+    ],
+    "testFiles": [
+        "probotest.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "4.0.9",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "licence": "MIT"
+}
